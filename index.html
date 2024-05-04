@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일 청첩장</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="invitation-container">
+        <header class="invitation-header">
+            <h2>신랑 김수현 & 신부 김지원</h2>
+        </header>
+
+        <div class="invitation-image">
+            <img src="wedding-photo.jpg" alt="웨딩 사진">
+            <p>Oh! Wedding Day</p>
+        </div>
+
+        <div class="mohshingeul-section">
+            <p>모 시 는 글</p>
+            <p>저희 두 사람이<br>하나가 되는 새 인생을 시작합니다.<br>사랑으로 가득 채워 즐거움을 나누고<br>어려움은 이겨내는<br>함께 나아가는 삶을 꾸리겠습니다.<br>귀한 걸음 하시어 축복해주시면 감사하겠습니다.</p>
+        </div>
+
+        <div class="caption">
+            <p>wedding gallery</p>
+            <h3>두 사람의 사랑을 담은 순간</h3>
+        </div>
+
+        <div class="gallery">
+            <div class="slides">
+                <div class="slide"><img src="wedding-photo1.jpg" alt="웨딩 사진 1"></div>
+                <div class="slide"><img src="wedding-photo2.jpg" alt="웨딩 사진 2"></div>
+                <div class="slide"><img src="wedding-photo3.jpg" alt="웨딩 사진 3"></div>
+                <div class="slide"><img src="wedding-photo4.jpg" alt="웨딩 사진 4"></div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+
+        <div class="contact-section">
+            <h4>전화로 축하를 전해보세요</h4>
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <img src="groom.jpg" alt="신랑 사진">
+                    <p>신랑 김수현</p>
+                    <p>010-5044-8661</p>
+                </div>
+                <div class="contact-card">
+                    <img src="bride.jpg" alt="신부 사진">
+                    <p>신부 김지원</p>
+                    <p>010-5044-2082</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="calendar-section">
+            <h4>우리의 특별한 날</h4>
+            <p id="d-day"></p>
+            <div class="calendar">
+                <img src="calendar-image.jpg" alt="캘린더 이미지">
+            </div>
+        </div>
+
+        <footer class="invitation-footer">
+            <p>2024년 5월 18일 토요일 오후 1시<br>내곁본당 컨벤션센터 1층 그랜드홀</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
